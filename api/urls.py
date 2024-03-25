@@ -22,4 +22,5 @@ app_name='exercises'
 
 urlpatterns = [
     re_path(r'^exercises-list/$', views.exercises, name='exercises-list'),
+    re_path(r'^back-biceps/$', views.back_biceps, name='back-biceps'),
 ]
